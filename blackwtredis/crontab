@@ -1,0 +1,1 @@
+0 0 */2  * *   cd  /data && rm -rf /data/blocklist-ipsets && git clone https://gitee.com/njcx86/blocklist-ipsets.git  && sh /data/biptoredis.sh &
