@@ -10,7 +10,7 @@ import (
 
 
 var url1 = "http://10.10.116.190:9091/check?ip="    					// 威胁情报接口
-var url2 =  "http://10.10.128.235/ip-database/tests/ip.php?ip="         // IP地理位置接口
+var url2 =  "http://10.10.128.235/iplocation/getip/ip.php?ip="         // IP地理位置接口
 
 
 

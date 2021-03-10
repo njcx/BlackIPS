@@ -1,0 +1,35 @@
+{
+  "name": "itbdw/ip-database",
+  "type": "library",
+  "description": "免费IP地址数据库(纯真IP地址数据库，输出格式为国家、省、市、县、运营商)❤️ 🇨🇳，中文数据库",
+  "keywords": [
+    "ip",
+    "database",
+    "location",
+    "数据库",
+    "IP地址库",
+    "IP数据库",
+    "纯真IP地址库",
+    "qqwry"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "itbdw",
+      "email": "itbudaoweng@gmail.com",
+      "role": "Developer",
+      "homepage": "http://github.com/itbdw"
+    }
+  ],
+  "require": {
+    "php": "~5.4|~7.0",
+    "ext-mbstring": "*",
+    "ext-json": "*",
+    "ext-iconv": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "itbdw\\Ip\\": "src/"
+    }
+  }
+}
