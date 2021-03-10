@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e487eb12-6dcf-4c49-9a6a-40cc028dbc34" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iplocation/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iplocation/bin/update-ip.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iplocation/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iplocation/getip/ip.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iplocation/nginx.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iplocation/nginxlocation.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iplocation/src/IpLocation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iplocation/src/qqwry.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blackip/blackip.go" beforeDir="false" afterPath="$PROJECT_DIR$/blackip/blackip.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iplocation/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/iplocation/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,8 +36,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="414">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -206,6 +195,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="false" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -279,6 +269,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="--" />
+    <option name="LAST_COMMIT_MESSAGE" value="--" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../github.com/gin-gonic/gin/context.go">
@@ -376,9 +370,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iplocation/nginxlocation.conf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/iplocation/src/IpLocation.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-11624" />
@@ -414,13 +405,16 @@
     <entry file="file://$PROJECT_DIR$/blackwtredis/biptoredis.sh">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/iplocation/nginxlocation.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/iplocation/README.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="414">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
