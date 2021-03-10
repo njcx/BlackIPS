@@ -1,4 +1,4 @@
-dir=/data/blocklist-ipsets 
+dir=/opt/blocklist-ipsets
  
 for file in $dir/*; do
 
