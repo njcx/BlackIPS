@@ -1,1 +1,1 @@
-0 0 */2  * *   cd  /opt && rm -rf /opt/blocklist-ipsets && git clone https://gitee.com/njcx86/blocklist-ipsets.git  && sh /opt/biptoredis.sh &
+0 0 */2  * *   cd  /opt && rm -rf /opt/blocklist-ipsets && git clone https://gitee.com/njcx86/blocklist-ipsets.git  && sh /opt/biptoredis.sh > /dev/null 2>&1

@@ -2,32 +2,29 @@ package main
 
 import (
 	"fmt"
-	"net/http"
-	"github.com/json-iterator/go"
 	"github.com/go-redis/redis"
+	"github.com/json-iterator/go"
+	"net/http"
 	"time"
 )
 
 var json = jsoniter.ConfigCompatibleWithStandardLibrary
 
-
 var client = redis.NewClient(&redis.Options{
-	Addr:     "127.0.0.1:6379",
-	Password: "", // no password set
-	DB:       0,  // use default DB
+	Addr:     "127.0.0.1:6381",
+	Password: "nBbIBrmoWHaLRJzu",
+	DB:       0,
 })
 
-
 type JsonR struct {
-	Code    int         `json:"code"`
-	Ip      string      `json:"ip"`
-	Message string      `json:"message"`
+	Code    int    `json:"code"`
+	Ip      string `json:"ip"`
+	Message string `json:"message"`
 }
 
 func JsonRF() *JsonR {
 	return &JsonR{}
 }
-
 
 func checkIP(w http.ResponseWriter, req *http.Request) {
 	req.ParseForm()
@@ -41,19 +38,18 @@ func checkIP(w http.ResponseWriter, req *http.Request) {
 	fmt.Println(time.Now().Format("2006-01-02 15:04:05") + "--CheckIP  is running--" + ip)
 	val2, _ := client.Get(ip).Result()
 
-	if len(val2)>1 {
+	if len(val2) > 1 {
 		result.Code = 1
-		result.Ip  = ip
+		result.Ip = ip
 		result.Message = val2
 	} else {
 		result.Code = 0
-		result.Ip  = ip
+		result.Ip = ip
 		//result.Message =
 	}
 	bytes, _ := json.Marshal(result)
 	fmt.Fprint(w, string(bytes))
 }
-
 
 func main() {
 	fmt.Println("This is web server~")

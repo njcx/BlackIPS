@@ -1,4 +1,4 @@
-module nbss
+module blackapi
 
 go 1.14
 
