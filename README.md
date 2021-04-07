@@ -3,21 +3,21 @@
 开源威胁情报，包含3个组件，300万+恶意IP。
 
 
-#### --blackapi
+#### blackapi
 
 Go语言开发，威胁情报查询API
 
-#### --blackip
+#### blackip
 
 Go语言开发，威胁情报查询前端
 
 
-#### --iplocation
+#### iplocation
 
 PHP语言开发，IP地理位置查询API，包含Nginx配置
 
 
-#### --blackwtredis
+#### blackwtredis
 
 读取威胁情报，写入Redis Shell的脚本，以及Crontab
 
