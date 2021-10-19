@@ -9,7 +9,7 @@ import (
 )
 
 var url1 = "http://127.0.0.1:9091/check?ip="                   // 威胁情报接口,修改为真实IP
-var url2 = "http://127.0.0.1:9092/iplocation/getip/ip.php?ip=" // IP地理位置接口，修改为真实IP
+var url2 = "http://127.0.0.1:9093/iplocation/getip/ip.php?ip=" // IP地理位置接口，修改为真实IP
 
 type result struct {
 	Code    int    `json:"code"`
