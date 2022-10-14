@@ -1,7 +1,7 @@
 #!/bin/sh
 
-dir=/data0/BlackIP/blackwtredis/blocklist-ipsets
-whitelist=/data0/BlackIP/blackwtredis/whitelist.txt
+dir=/opt/BlackIP/blackwtredis/blackip_list
+whitelist=/opt/BlackIP/blackwtredis/whitelist.txt
 
 redis=127.0.0.1
 redis_port=6381

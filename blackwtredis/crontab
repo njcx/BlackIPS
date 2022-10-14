@@ -1,1 +1,1 @@
-0 0 */2  * *   cd  /data0/BlackIP/blackwtredis && rm -rf /data0/BlackIP/blackwtredis/blocklist-ipsets && git clone https://gitee.com/njcx86/blocklist-ipsets.git  && sh /data0/BlackIP/blackwtredis/biptoredis.sh > /dev/null 2>&1
+0 0 */2  * *   cd  /opt/BlackIP/blackwtredis && rm -rf blackip_list && git clone https://github.com/njcx/blackip_list.git  && bash /opt/BlackIP/blackwtredis/biptoredis.sh > /dev/null 2>&1
